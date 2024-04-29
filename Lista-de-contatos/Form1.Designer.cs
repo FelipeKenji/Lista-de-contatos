@@ -122,7 +122,8 @@
             this.Controls.Add(this.labelsobrenome);
             this.Controls.Add(this.labelnome);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Lista-de-contatos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
