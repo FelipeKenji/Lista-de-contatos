@@ -36,6 +36,7 @@
             this.Telefone = new System.Windows.Forms.TextBox();
             this.ListBoxContatos = new System.Windows.Forms.ListBox();
             this.buttoncontato = new System.Windows.Forms.Button();
+            this.organiza = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelnome
@@ -100,19 +101,30 @@
             // 
             // buttoncontato
             // 
-            this.buttoncontato.Location = new System.Drawing.Point(17, 307);
+            this.buttoncontato.Location = new System.Drawing.Point(17, 303);
             this.buttoncontato.Name = "buttoncontato";
-            this.buttoncontato.Size = new System.Drawing.Size(285, 107);
+            this.buttoncontato.Size = new System.Drawing.Size(152, 111);
             this.buttoncontato.TabIndex = 8;
             this.buttoncontato.Text = "Inserir contato";
             this.buttoncontato.UseVisualStyleBackColor = true;
             this.buttoncontato.Click += new System.EventHandler(this.buttoncontato_Click);
+            // 
+            // organiza
+            // 
+            this.organiza.Location = new System.Drawing.Point(186, 303);
+            this.organiza.Name = "organiza";
+            this.organiza.Size = new System.Drawing.Size(156, 111);
+            this.organiza.TabIndex = 9;
+            this.organiza.Text = "organizar";
+            this.organiza.UseVisualStyleBackColor = true;
+            this.organiza.Click += new System.EventHandler(this.organiza_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(639, 450);
+            this.Controls.Add(this.organiza);
             this.Controls.Add(this.buttoncontato);
             this.Controls.Add(this.ListBoxContatos);
             this.Controls.Add(this.Telefone);
@@ -139,6 +151,7 @@
         private System.Windows.Forms.TextBox Telefone;
         private System.Windows.Forms.ListBox ListBoxContatos;
         private System.Windows.Forms.Button buttoncontato;
+        private System.Windows.Forms.Button organiza;
     }
 }
 
